@@ -6,6 +6,7 @@ hide_title: true
 hero_image: /assets/images/hero-banner.svg
 hero_title: DeepPlasticity
 hero_subtitle: Physics-Informed Deep Learning for Multispectral Full-Field Analysis of Plastic Deformation.
+institutions_strip: true
 ---
 
 <section class="intro-card">
