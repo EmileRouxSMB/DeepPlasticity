@@ -49,11 +49,6 @@ body {
   gap: 1rem;
 }
 
-.header-logos {
-  padding-top: 0.4rem;
-  border-top: 1px solid var(--line);
-}
-
 .brand {
   text-decoration: none;
   color: #09172c;
@@ -70,31 +65,6 @@ nav a {
   font-weight: 700;
   font-size: 0.92rem;
   letter-spacing: 0.02em;
-}
-
-.nav-logos {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  flex-wrap: wrap;
-}
-
-.nav-logos a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #ffffff;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  height: 98px;
-  padding: 0.25rem 0.55rem;
-}
-
-.nav-logos img {
-  height: 90px;
-  width: auto;
-  display: block;
-  object-fit: contain;
 }
 
 .hero-strip {
@@ -159,6 +129,34 @@ a {
   margin-top: 0;
   margin-bottom: 0.45rem;
   font-family: "Fraunces", Georgia, serif;
+}
+
+.partners-card {
+  margin-top: 1rem;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.partners-logos a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.35rem 0.6rem;
+}
+
+.partners-logos img {
+  height: 90px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .quick-grid {
@@ -228,15 +226,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .nav-logos {
-    flex-wrap: wrap;
-  }
-
-  .nav-logos img {
+  .partners-logos img {
     height: 42px;
-  }
-
-  .nav-logos a {
-    height: 50px;
   }
 }
