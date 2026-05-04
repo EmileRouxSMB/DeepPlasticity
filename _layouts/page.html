@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/news/' | relative_url }}">News</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </main>
+</body>
+</html>

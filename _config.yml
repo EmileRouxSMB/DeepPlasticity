@@ -1,0 +1,31 @@
+title: DeepPlasticity
+description: DeepPlasticity Chair website
+url: "https://emilerouxsmb.github.io"
+baseurl: "/DeepPlasticity"
+timezone: Europe/Paris
+lang: en
+
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: references.bib
+  sort_by: year
+  order: descending
