@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
@@ -18,8 +21,21 @@
       </nav>
     </div>
   </header>
-  <main class="container">
+  {% if page.hero_image %}
+  <section class="hero-strip" style="background-image: linear-gradient(120deg, rgba(9, 23, 44, 0.82), rgba(10, 93, 91, 0.5)), url('{{ page.hero_image | relative_url }}');">
+    <div class="container hero-content">
+      <p class="hero-kicker">Research Chair</p>
+      <h1>{{ page.hero_title | default: page.title }}</h1>
+      {% if page.hero_subtitle %}
+      <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+  <main class="container page-content">
+    {% unless page.hide_title %}
     <h1>{{ page.title }}</h1>
+    {% endunless %}
     {{ content }}
   </main>
 </body>
