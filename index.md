@@ -5,14 +5,13 @@ permalink: /
 hide_title: true
 hero_image: /assets/images/hero-banner.svg
 hero_title: DeepPlasticity
-hero_subtitle: Plasticity-aware models for adaptive mechanics and learning systems.
+hero_subtitle: Physics-Informed Deep Learning for Multispectral Full-Field Analysis of Plastic Deformation.
 ---
 
 <section class="intro-card">
   <h2>Mission</h2>
   <p>
-    DeepPlasticity develops data-driven and physics-informed methods to understand, predict,
-    and control material behavior under complex loading and evolving microstructures.
+    Physics-Informed Deep Learning for Multispectral Full-Field Analysis of Plastic Deformation 
   </p>
 </section>
 

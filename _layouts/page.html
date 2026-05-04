@@ -24,7 +24,12 @@
   {% if page.hero_image %}
   <section class="hero-strip" style="background-image: linear-gradient(120deg, rgba(9, 23, 44, 0.82), rgba(10, 93, 91, 0.5)), url('{{ page.hero_image | relative_url }}');">
     <div class="container hero-content">
-      <p class="hero-kicker">Research Chair</p>
+      <p class="hero-kicker">
+        <a href="https://miai-cluster.univ-grenoble-alpes.fr/" target="_blank" rel="noopener">
+          MIAI Cluster</a>
+        Research Chair
+
+      </p>
       <h1>{{ page.hero_title | default: page.title }}</h1>
       {% if page.hero_subtitle %}
       <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
