@@ -10,9 +10,17 @@ institutions_strip: true
 ---
 
 <section class="intro-card">
-  <h2>Mission</h2>
+  <h2>Overview</h2>
   <p>
-    Physics-Informed Deep Learning for Multispectral Full-Field Analysis of Plastic Deformation 
+    Industrial forming processes face strong uncertainties due to material variability and process fluctuations, making precise control difficult.
+    The DeepPlasticity Chair aims to exploit AI to turn experimental data into meaningful and physically consistent indicators.
+    </p>
+    <p>
+    The research program connects visible and infrared imaging, AI analysis, and mechanical interpretation through three axes: large-scale image processing and mechanical interpretation, physics-informed Gaussian Process models, and hybrid AI–mechanics modeling.
+    These approaches will detect plasticity, characterize localized events, and account for material heterogeneity. Industrial transfer will occur through a forming demonstrator integrating AI under near-operational conditions.
+    </p>
+    <p>
+    Finally, the Chair consolidates collaboration between USMB and UCA, leveraging expertise to advance physics-informed AI and support teaching for engineering students.  
   </p>
 </section>
 
