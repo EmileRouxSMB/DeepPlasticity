@@ -13,13 +13,15 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <div class="header-right">
+      <div class="header-top">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav>
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/publications/' | relative_url }}">Publications</a>
           <a href="{{ '/news/' | relative_url }}">News</a>
         </nav>
+      </div>
+      <div class="header-logos">
         <div class="nav-logos" aria-label="Partner institutions">
           <a href="https://miai-cluster.univ-grenoble-alpes.fr/" target="_blank" rel="noopener noreferrer" aria-label="MIAI Cluster">
             <img src="{{ '/assets/images/Logo_MIAICluster.png' | relative_url }}" alt="MIAI Cluster">
